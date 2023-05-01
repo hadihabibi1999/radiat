@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faList, faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
+import { faList } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   return (
@@ -70,17 +70,6 @@ const NavBar = () => {
             </a>
           </li>
         </ul>
-        {/*   <form className="form-inline my-2 my-lg-0">
-          <input
-            className="form-control mr-sm-2"
-            type="search"
-            placeholder="نام کالا"
-            aria-label="Search"
-          />
-          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">
-            جست و جو
-          </button>
-        </form> */}
       </div>
     </nav>
   );
